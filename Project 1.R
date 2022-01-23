@@ -18,7 +18,7 @@ massandheight<-starwars %>%
 
 massandheight
 
-#İsteğe bağlı olarak ayrı işlemlere ve değişkenlere de tabi tutulabilir.
+#Istege olarak ayri islemlere ve degiskenlere de tabi tutulabilir.
 '
 mass<-starwars %>%
   group_by(species) %>%
@@ -32,7 +32,7 @@ height
 
 
 #Fourth Quesiton :
-starwars<-add_row(starwars,name='Polen Yılmazay',height=155,mass=40,
+starwars<-add_row(starwars,name='Polen YÃ½lmazay',height=155,mass=40,
                   hair_color='brown',skin_color='wheat',
                   eye_color='brown',birth_year=97.0,sex='female',
                   gender='feminine',homeworld='Tatooine',species='Human',
@@ -67,7 +67,7 @@ starwars_3<-starwars_2%>%
 starwars_3
 
 
-#Bu şekilde de hepsi ayrı bir atrribute içine atanıpta species sayımı yaptırabiliriz.Sadece bu biraz daha kod kalabalıklığına ve ekstra yer tutumuna neden oluyor.
+#Bu sekilde de hepsi ayri bir atrribute iÃ§ine atanipta species sayimi yaptirabiliriz.Sadece bu biraz daha kod kalabalikligina ve ekstra yer tutumuna neden oluyor.
 'underweight<-filter(starwars_2,BMI<18.5)
 underweight
 healthy<-filter(starwars_2,BMI>18.5 & BMI<24.99)
